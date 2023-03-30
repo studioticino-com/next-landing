@@ -4,18 +4,19 @@ import { useRouter } from "next/router";
 
 // Default value for some meta data
 const defaultMeta = {
-  title: 'LaslesVPN',
-  siteName: 'LaslesVPN',
+  title: 'studioticino.com - Aiuto Scolastico Ticino',
+  siteName: 'studioticino.com - Aiuto Scolastico Ticino',
+  keywords: 'Aiuto scolastico Ticino, Tutor scuole superiori Ticino, Lezioni private Ticino, Preparazione esami scuole superiori Ticino, Ripetizioni scuole superiori Ticino, Supporto scolastico Ticino, Tutoring online Ticino, Aiuto compiti scuole superiori Ticino, Tutoring personalizzato scuole superiori Ticino, Lezioni di recupero scuole superiori Ticino',
   description:
-    'Landing page VPN LaslesVPN Best VPN For Privacy, Country and Cheapest',
+    'Offriamo servizi di aiuto scolastico, tutoring online e lezioni private per studenti delle scuole superiori nel Ticino.',
   // change base url of your web (without '/' at the end)
-  url: 'https://next-landing-vpn.vercel.app',
+  url: 'https://studioticino.com/',
   type: 'website',
   robots: 'follow, index',
   // change with url of your image (recommended dimension = 1.91:1)
   // used in twitter, facebook, etc. card when link copied in tweet/status 
-  image: 'https://next-landing-vpn.vercel.app/assets/card-image.png',
-  author: 'Lorem Ipsum'
+  image: 'https://studioticino.com/assets/studioticino.png',
+  author: 'studioticino.com'
 };
 
 /**
