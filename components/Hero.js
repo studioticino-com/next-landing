@@ -32,16 +32,16 @@ const Hero = ({
             variants={scrollAnimation}>
             <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
               <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-              studioticino.com - Aiuto Scolastico Ticino
+              studioticino.com, aiuto Scolastico Ticino
               </h1>
               <p className="text-black-500 mt-4 mb-6">
               Offriamo <strong>servizi di aiuto scolastico</strong>, tutoring online e lezioni private per studenti delle scuole superiori nel Ticino.
               <ul>
-                <li>Matematica</li>
-                <li>Informatica</li>
-                <li>Elettronica</li>
-                <li>Chimica</li>
-                <li>Fisica</li>
+                <li>&bull; Matematica</li>
+                <li>&bull; Informatica</li>
+                <li>&bull; Elettronica</li>
+                <li>&bull; Chimica</li>
+                <li>&bull; Fisica</li>
               </ul>
               </p>
               <ButtonPrimary>Prenota una lezione</ButtonPrimary>

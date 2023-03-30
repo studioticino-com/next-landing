@@ -39,7 +39,7 @@ const Feature = () => {
             Mettici alla prova
           </h3>
           <p className="my-2 text-black-500">
-            Voglia solo studenti promossi e clienti soddisfatti
+            Vogliamo solo studenti promossi e clienti soddisfatti
           </p>
           <ul className="text-black-500 self-start list-inside ml-8">
             {features.map((feature, index) => (
