@@ -53,17 +53,17 @@ const Pricing = () => {
                   />
                 </div>
                 <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                  Singola Online
+                  Singola Online{" "}
                 </p>
                 <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                   <li className="relative check custom-list my-2">
-                    Zoom
+                    Zoom{" "}
                   </li>
                   <li className="relative check custom-list my-2">
-                    Discord
+                    Discord{" "}
                   </li>
                   <li className="relative check custom-list my-2">
-                    Google Meet
+                    Google Meet{" "}
                   </li>
                 </ul>
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
@@ -94,17 +94,17 @@ const Pricing = () => {
                 />
               </div>
               <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                Lezione di Gruppo{" "}
+                Lezione di Gruppo Online{" "}
               </p>
               <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                 <li className="relative check custom-list my-2">
-                  Zoom
+                  Zoom{" "}
                 </li>
                 <li className="relative check custom-list my-2">
-                  Discord
+                  Discord{" "}
                 </li>
                 <li className="relative check custom-list my-2">
-                  Google Meet
+                  Google Meet{" "}
                 </li>
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
@@ -123,7 +123,7 @@ const Pricing = () => {
             <motion.h3
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto">
-              Affidabili, Precisi, Efficienti
+              Affidabili, Precisi, Efficienti{" "}
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
