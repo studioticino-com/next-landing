@@ -45,7 +45,9 @@ const Hero = ({
                 <li>&bull; Fisica</li>
               </ul>
               </p>
-              <ButtonPrimary onClick={event => { console.log("C", CALLINK); window.location.href=CALLINK}}>Prenota una lezione</ButtonPrimary>
+              <a href={CALLINK}>
+                <ButtonPrimary>Prenota una lezione</ButtonPrimary>
+              </a>
             </div>
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
