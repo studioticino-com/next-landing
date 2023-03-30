@@ -67,3 +67,4 @@ const Feature = () => {
 };
 
 export default Feature;
+export const CALLINK = 'https://calendly.com/carlo-denaro/lezione';

@@ -7,6 +7,7 @@ import Maps from "../public/assets/HugeGlobal.svg";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import { CALLINK } from "./Feature";
 
 const Pricing = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -70,7 +71,7 @@ const Pricing = () => {
                   <p className="text-2xl text-black-600 text-center mb-4 ">
                     CHF 32 <span className="text-black-500">/ ora</span>
                   </p>
-                  <ButtonOutline>Prenota</ButtonOutline>
+                  <ButtonOutline onClick={window.location.href={CALLINK}}>Prenota</ButtonOutline>
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -111,7 +112,7 @@ const Pricing = () => {
                 <p className="text-2xl text-black-600 text-center mb-4 ">
                   CHF 50 <span className="text-black-500">/ ora</span>
                 </p>
-                <ButtonOutline>Prenota</ButtonOutline>
+                <ButtonOutline onClick={window.location.href={CALLINK}}>Prenota</ButtonOutline>
               </div>
               </motion.div>
             </ScrollAnimationWrapper>

@@ -4,6 +4,7 @@ import ButtonPrimary from "./misc/ButtonPrimary";
 import {motion} from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import { CALLINK } from "./Feature";
 
 const Hero = ({
   listUser = [
@@ -44,7 +45,7 @@ const Hero = ({
                 <li>&bull; Fisica</li>
               </ul>
               </p>
-              <ButtonPrimary>Prenota una lezione</ButtonPrimary>
+              <ButtonPrimary onClick={window.location.href={CALLINK}}>Prenota una lezione</ButtonPrimary>
             </div>
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
