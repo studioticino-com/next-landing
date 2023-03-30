@@ -71,7 +71,9 @@ const Pricing = () => {
                   <p className="text-2xl text-black-600 text-center mb-4 ">
                     CHF 32 <span className="text-black-500">/ ora</span>
                   </p>
-                  <ButtonOutline onClick={event => window.location.href=CALLINK}>Prenota</ButtonOutline>
+                  <a href={CALLINK}>
+                    <ButtonOutline>Prenota</ButtonOutline>
+                  </a>
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -112,7 +114,9 @@ const Pricing = () => {
                 <p className="text-2xl text-black-600 text-center mb-4 ">
                   CHF 50 <span className="text-black-500">/ ora</span>
                 </p>
-                <ButtonOutline onClick={event => window.location.href=CALLINK}>Prenota</ButtonOutline>
+                <a href={CALLINK}>
+                  <ButtonOutline>Prenota</ButtonOutline>
+                </a>
               </div>
               </motion.div>
             </ScrollAnimationWrapper>
